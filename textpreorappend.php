@@ -35,6 +35,7 @@ class JFormFieldTextPreorAppend extends JFormFieldText {
 
 
 
+
         // Translate placeholder text
         $hint = $this->translateHint ? JText::_($this->hint) : $this->hint;
 
@@ -54,7 +55,9 @@ class JFormFieldTextPreorAppend extends JFormFieldText {
         $inputmode    = !empty($this->inputmode) ? ' inputmode="' . $this->inputmode . '"' : '';
         $dirname      = !empty($this->dirname) ? ' dirname="' . $this->dirname . '"' : '';
 
-        $append       = $this->element['appendtext'] ? (bool) $this->element['appendtext'] : false;
+        $append       = $this->element['appendtext'] ? intval($this->element['appendtext']) : 0;
+
+
 
 
 
