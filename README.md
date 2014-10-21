@@ -1,17 +1,28 @@
 textpreorappend
 ===============
-TextPreorAppend  - Text field with add-on preend or append
+TextPreorAppend  - Text field with add-on prepend or append
 
-Preend or Append add on text field as custom form field for joomla
+Prepend or Append add on text field as custom form field for joomla
 
-![addontextfieldtwitterbootstrap](http://www.webpagescreenshot.info/i3/5446ab98260e19-05841589 "Examle addon text field using twitter bootstrap")
+![addontextfieldtwitterbootstrap](https://raw.githubusercontent.com/manchumahara/textpreorappend/master/screenshot-1.png "Examle addon text field using twitter bootstrap")
 
 ```
-Preend Exaple form field code
+Prepend Exaple form field code
 
-<field  name="hashtag" type="textpreorappend" appendtext="false" addontext="#" default="" label="Hashtag"  description="Hashtag word without hash (#) sign"/>
+ <field  name="hashtag" type="textpreorappend" appendtext="0" addontext="#" default="" label="Hashtag"
+                       description="Hashtag word without hash (#) sign"/>
 
 Append Example form field code
 
-<field  name="hashtag2" type="textpreorappend" appendtext="true" addontext="#" default="" label="Hashtag" description="Hashtag word without hash (#) sign"/>
+<field  name="hashtagappend" type="textpreorappend" appendtext="1" addontext="#" default="" label="Hashtag Append"
+                        description="Hashtag word without hash (#) sign"/>
 ```
+
+For prepend:
+ appendtext="0"
+ 
+For Append:
+ appendtext="1"
+
+
+![Screenshot2](https://raw.githubusercontent.com/manchumahara/textpreorappend/master/screenshot-2.png)
