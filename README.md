@@ -2,7 +2,7 @@ textpreorappend
 ===============
 TextPreorAppend  - Text field with add-on prepend or append
 
-Prepend or Append add on text field as custom form field for joomla
+Expected design from twitter bootstrap for Prepend or Append add on text field as custom form field for joomla
 
 ![addontextfieldtwitterbootstrap](https://raw.githubusercontent.com/manchumahara/textpreorappend/master/screenshot-1.png "Examle addon text field using twitter bootstrap")
 
@@ -24,5 +24,6 @@ For prepend:
 For Append:
  appendtext="1"
 
+Here is the output
 
 ![Screenshot2](https://raw.githubusercontent.com/manchumahara/textpreorappend/master/screenshot-2.png)
